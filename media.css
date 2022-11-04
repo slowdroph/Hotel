@@ -1,0 +1,223 @@
+@media screen and (max-width:760px) {
+    .telephone{
+        display: none;
+    }
+}
+@media screen and (max-width:440px) {
+    .nav-link-style{
+        font-size: 12px;
+    }
+    .company-link{
+        font-size: 12px;
+    }
+    .nav-link-style:hover{
+        border-width: 0px 0px 1px 0px;
+    }
+    .company-container-heading{
+        font-size: 32px;
+    }
+    .company-container-paragraph{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:300px) {
+    .nav-link-style{
+        font-size: 10px;
+    }
+    .company-link{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:370px) {
+    .global-section-heading{
+        font-size: 25px;
+    }
+    .global-section-paragraph{
+        font-size: 16px;
+    }
+    .request-store-link{
+        padding: 12px 40px;
+    }
+}
+@media screen and (max-width:1300px) {
+    .card-container-description{
+        grid-template-columns: 350px 350px;
+    }
+}
+@media screen and (max-width:850px) {
+    .card-container-description{
+        gap: 40px;
+    }
+}
+@media screen and (max-width:780px) {
+    .card-container-description{
+        grid-template-columns: 300px 300px;
+    }
+}
+@media screen and (max-width:700px) {
+    .card-container-description{
+        grid-template-columns: 300px;
+    }
+}
+@media screen and (max-width:350px) {
+    .card-container-description{
+        grid-template-columns: 250px;
+    }
+    .paragraph-why-us{
+        font-size: 29px;
+    }
+}
+@media screen and (max-width:1090px) {
+    .hotel-window-img{
+        max-width: 350px;
+    }
+    .hotel-infrastructure-img{
+        max-width: 280px;
+    }
+    .container-box{
+        gap: 20px;
+    }
+    .hotel-info-description-heading{
+        font-size: 24px;
+    }
+    .hotel-info-description-paragraph{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:870px){
+    .container-box{
+        flex-direction: column-reverse;
+    }
+    .hotel-window-img{
+        max-width: 480px;
+    }
+    .hotel-infrastructure-img{
+        max-width: 370px;
+    }
+}
+@media screen and (max-width:570px) {
+    .hotel-window-img{
+        max-width: 420px;
+    }
+    .hotel-infrastructure-img{
+        max-width: 320px;
+    }
+}
+@media screen and (max-width:490px) {
+    .hotel-window-img{
+        max-width: 350px;
+    }
+    .hotel-infrastructure-img{
+        max-width: 280px;
+    }
+    .hotel-info-description{
+        padding: 40px 27px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .table-hotel-mining{
+        gap: 18px;
+    }
+}
+@media screen and (max-width:460px) {
+    .hotel-info-description{
+        max-width: 280px;
+    }
+    .table-hotel-mining{
+        gap: 10px;
+    }
+    .hotel-info-description-heading{
+        font-size: 20px;
+        text-align: center;
+    }
+    .hotel-info-description-paragraph{
+        font-size: 14px;
+        text-align: center;
+    }
+    .table-item h3{
+        font-size: 16px;
+    }
+    .table-item p {
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    .hotel-mining-heading{
+        font-size: 29px;
+    }
+}
+@media screen and (max-width:380px) {
+    .table-hotel-mining{
+        gap: 0px;
+        grid-template-columns: 100px 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .table-item p {
+        margin-top: 2px;
+    }
+    .table-item{
+        margin-bottom: 12px;
+    }
+    .hotel-info-description{
+        max-width: 220px;
+    }
+    .hotel-window-img{
+        max-width: 270px;
+    }
+    .hotel-infrastructure-img{
+        max-width: 220px;
+    }
+}
+@media screen and (max-width:300px) {
+    .hotel-info-description{
+        padding: 20px 17px;
+    }
+}
+@media screen and (max-width:970px) {
+    .contact-container{
+        width: 700px;
+        height: 520px;
+    }
+}
+@media screen and (max-width:760px) {
+    .contact-container{
+        width: 500px;
+        height: 520px;
+    }
+    .contact-section{
+        height: 600px;
+    }
+}
+@media screen and (max-width:550px) {
+    .contact-container{
+        width: 380px;
+        height: 440px;
+    }
+    .contact-section{
+        height: 500px;
+    }
+}
+@media screen and (max-width:420px) {
+    .contact-container{
+        width: 300px;
+        height: 440px;
+    }
+}
+@media screen and (max-width:340px) {
+    .contact-container{
+        width: 240px;
+        height: 440px;
+    }
+}
+@media screen and (max-width:770px) {
+    .footer-list{
+        flex-wrap: wrap;
+        padding: 0px 12px;
+    }
+}
+@media screen and (max-width:391px) {
+    .footer-list{
+        flex-direction: column;
+        gap: 25px;
+    }
+}
