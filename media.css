@@ -121,10 +121,10 @@
 }
 @media screen and (max-width:460px) {
     .hotel-info-description{
-        max-width: 280px;
+        max-width: 310px;
     }
     .table-hotel-mining{
-        gap: 10px;
+        gap: 4px;
     }
     .hotel-info-description-heading{
         font-size: 20px;
@@ -159,7 +159,7 @@
         margin-bottom: 12px;
     }
     .hotel-info-description{
-        max-width: 220px;
+        max-width: 270px;
     }
     .hotel-window-img{
         max-width: 270px;
