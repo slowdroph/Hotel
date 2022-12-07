@@ -12,8 +12,6 @@
 *{
     padding: 0px;
     margin: 0px;
-}
-body{
     box-sizing: border-box;
 }
 header{
@@ -24,6 +22,7 @@ header{
     background-repeat: no-repeat;
     background-color: rgba(17, 10, 10, 0.616);
     background-blend-mode: darken;
+    position: relative;
 }
 .header-navigation{
     display: flex;
@@ -80,8 +79,12 @@ header{
     letter-spacing: 0.5px;
 }
 .company-container{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 18em;
+    backface-visibility: hidden;
 }
 .company-container-heading{
     font-family: var(--fontRoboto);
@@ -89,6 +92,35 @@ header{
     color: white;
     text-transform: capitalize;
     font-size: 40px;
+    animation-name: moveinright;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+@keyframes moveinright {
+    0%{
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+    80%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes moveinleft {
+    0%{
+        opacity: 0;
+        transform: translateX(150px);
+    }
+    80%{
+        transform: translateX(-10px);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 .company-container-paragraph{
     font-family: var(--fontRoboto);
@@ -96,6 +128,9 @@ header{
     color: white;
     font-size: 22px;
     margin-top: 20px;
+    animation-name: moveinleft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 .section-label{
     text-align: center;
