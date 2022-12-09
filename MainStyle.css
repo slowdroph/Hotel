@@ -238,7 +238,7 @@ main{
 .hotel-info-description{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     background-color: rgb(238, 238, 238);
     padding: 60px 40px;
     border-top-right-radius: 30px;
@@ -257,21 +257,23 @@ main{
     line-height: 28px;
     font-size: 18px;
 }
-.table-hotel-mining{
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    gap: 30px;
+.table{
+    
 }
-.table-item h3{
+th{
     font-family: var(--fontRoboto);
     text-shadow: 0px 0px 1px black;
     font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 20px;
+    text-transform: capitalize;
 }
-.table-item p{
+td{
     font-family: var(--fontRoboto);
     color:rgba(84, 90, 88, 1);
     font-weight: 900;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .hardware-section{
     text-align: center;

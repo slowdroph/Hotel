@@ -115,49 +115,33 @@
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
     }
-    .table-hotel-mining{
-        gap: 18px;
-    }
 }
 @media screen and (max-width:460px) {
     .hotel-info-description{
         max-width: 310px;
     }
-    .table-hotel-mining{
-        gap: 4px;
-    }
     .hotel-info-description-heading{
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
     }
     .hotel-info-description-paragraph{
-        font-size: 14px;
+        font-size: 17px;
         text-align: center;
-    }
-    .table-item h3{
-        font-size: 16px;
-    }
-    .table-item p {
-        font-size: 14px;
-        margin-top: 7px;
     }
     .hotel-mining-heading{
         font-size: 29px;
     }
+    th{
+        text-align: center;
+        padding-left: 8px;
+    }
+    td{
+        padding-left: 8px;
+        text-align: center;
+        padding-top: 10px;
+    }
 }
 @media screen and (max-width:380px) {
-    .table-hotel-mining{
-        gap: 0px;
-        grid-template-columns: 100px 100px;
-        justify-content: center;
-        align-items: center;
-    }
-    .table-item p {
-        margin-top: 2px;
-    }
-    .table-item{
-        margin-bottom: 12px;
-    }
     .hotel-info-description{
         max-width: 270px;
     }
